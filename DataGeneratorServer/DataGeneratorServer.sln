@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "src\WebApp\WebApp.csproj", "{92F6BD44-9BCD-45A9-A7B4-E4DE838A0928}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCore", "src\ApplicationCore\ApplicationCore.csproj", "{D5E7D13C-A315-43A0-B300-422746717C5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationCore", "src\ApplicationCore\ApplicationCore.csproj", "{D5E7D13C-A315-43A0-B300-422746717C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{D138A33F-1632-4199-AFB7-4A1E2605B57B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,13 +23,13 @@ Global
 		{D5E7D13C-A315-43A0-B300-422746717C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5E7D13C-A315-43A0-B300-422746717C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5E7D13C-A315-43A0-B300-422746717C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D138A33F-1632-4199-AFB7-4A1E2605B57B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D138A33F-1632-4199-AFB7-4A1E2605B57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D138A33F-1632-4199-AFB7-4A1E2605B57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D138A33F-1632-4199-AFB7-4A1E2605B57B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{92F6BD44-9BCD-45A9-A7B4-E4DE838A0928} = {5FFD8DF0-8274-4126-9A6B-94DDA311E1D1}
-		{D5E7D13C-A315-43A0-B300-422746717C5D} = {5FFD8DF0-8274-4126-9A6B-94DDA311E1D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37B7C0EB-4BE2-494E-9C1A-29F390D362EB}
