@@ -38,7 +38,6 @@ namespace WebApp
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, ILogger<Startup> logger)
         {
             loggerFactory.AddFile("WebApp.log");
-            logger.LogInformation("debug");
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
