@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 
-namespace WebApp.Models
+namespace Infrastructure.Models
 {
     public class DataContext: DbContext
     {

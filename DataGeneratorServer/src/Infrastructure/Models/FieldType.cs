@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WebApp.Models
+namespace Infrastructure.Models
 {
     public class FieldType
     {
