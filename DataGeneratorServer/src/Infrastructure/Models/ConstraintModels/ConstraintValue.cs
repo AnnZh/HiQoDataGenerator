@@ -12,7 +12,6 @@ namespace Infrastructure.Models.ConstraintModels
         public string Value { get; set; }
        
         public int ConstraintId { get; set; }//FK
-        public Constraint Constraint { get; set; }//Navigation property
-        
+        public Constraint Constraint { get; set; }//Navigation property        
     }
 }

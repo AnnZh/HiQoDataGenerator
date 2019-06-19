@@ -12,11 +12,11 @@ namespace Infrastructure.Models.CustomObjectModels
         [StringLength(30)]
         public string Name { get; set; }
 
-        public List<TypeConstraint> SupportedConstraints { get; set; }
+        /*public List<TypeConstraint> SupportedConstraints { get; set; }
 
         public FieldType()
         {
             SupportedConstraints = new List<TypeConstraint>();
-        }
+        }*/
     }
 }

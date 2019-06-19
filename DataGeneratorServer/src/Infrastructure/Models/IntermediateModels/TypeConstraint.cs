@@ -10,7 +10,9 @@ namespace Infrastructure.Models.IntermediateModels
     {
         public int Id { get; set; }
 
-        public int FieldTypeId { get; set; }
+        public int TypeId { get; set; }
+        
+        [ForeignKey("TypeId")]
         public FieldType FieldType { get; set; }
 
         public int ConstraintId { get; set; }

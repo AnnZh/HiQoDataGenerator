@@ -15,11 +15,11 @@ namespace Infrastructure.Models.ConstraintModels
         [StringLength(50)]
         public string Description { get; set; }
 
-        public List<TypeConstraint> SupportedTypes { get; set; }
+        //public List<TypeConstraint> SupportedTypes { get; set; }
 
         public Constraint()
         {
-            SupportedTypes = new List<TypeConstraint>();
+            //SupportedTypes = new List<TypeConstraint>();
         }
     }
 }
