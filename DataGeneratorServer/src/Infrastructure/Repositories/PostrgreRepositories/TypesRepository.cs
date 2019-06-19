@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Infrastructure.Models;
 using Infrastructure.Models.CustomObjectModels;
+using ApplicationCore.Interfaces.Repositories;
 
 namespace Infrastructure.Repositories.PostgreRepositories
 {
