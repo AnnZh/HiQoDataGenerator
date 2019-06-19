@@ -45,11 +45,11 @@ namespace Infrastructure.Repositories.PostgreRepositories
 
         public bool Remove(int id)
         {
-            var typeToDelete = _context.Types.Where(type => type.Id == id).ToList().First();
+            var searchResult = _context.Types.Where(type => type.Id == id).ToList();
 
-            if (typeToDelete != null)
+            if (searchResult.Count != 0)
             {
-                _context.Types.Remove(typeToDelete);
+                _context.Types.Remove(searchResult.First());
                 _context.SaveChanges();
                 return true;
             }

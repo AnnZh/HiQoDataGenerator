@@ -9,14 +9,10 @@ namespace Infrastructure.Models.CustomObjectModels
     {
         public int Id { get; set; }
 
+        [Required()]
         [StringLength(30)]
         public string Name { get; set; }
 
-        /*public List<TypeConstraint> SupportedConstraints { get; set; }
-
-        public FieldType()
-        {
-            SupportedConstraints = new List<TypeConstraint>();
-        }*/
-    }
+        public virtual List<TypeConstraint> SupportedConstraints { get; set; }
+    }      
 }

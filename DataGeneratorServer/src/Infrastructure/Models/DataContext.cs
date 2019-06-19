@@ -9,7 +9,7 @@ namespace Infrastructure.Models
     {
         public DbSet<FieldType> Types { get; set; }
         public DbSet<Constraint> Constraints { get; set; }
-        public DbSet<ConstraintValue> ConstraintValues { get; set; }
+       // public DbSet<ConstraintValue> ConstraintValues { get; set; }
         
         public DataContext(DbContextOptions<DataContext> options): base(options)
         {
